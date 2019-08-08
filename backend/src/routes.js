@@ -1,14 +1,10 @@
 const express = require('express')
+const DevController = require('./controllers/DevController')
+const LikeController = require('./controllers/LikeController')
+
 const routes = express.Router()
 
-
-routes.get('/', (req, res) => {
-    return res.json({message:`Hello ${req.query.name}`}) //http://localhost:3333/?name=Paulo
-})
-
-routes.post('/devs',(req,res) => {
-    console.log(req.body)
-    return res.json({ ok: true })
-})
+routes.post('/devs', DevController.store)
+routes.post('/devs/:devId/likes', LikeController.store)
 
 module.exports = routes
