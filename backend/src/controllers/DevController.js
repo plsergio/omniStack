@@ -13,6 +13,8 @@ module.exports = {
                 { _id: {$nin: loggedDev.disLikes}},
             ]
         })
+
+        return res.json(users)
     },
 
     async store(req, res) {

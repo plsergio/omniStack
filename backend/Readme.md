@@ -13,3 +13,4 @@
 ### Github API
 - https://api.github.com/users/plsergio
 - yarn add axios (consome APIs)
+- yarn add cors (permite acessar api em qualquer endereço)
