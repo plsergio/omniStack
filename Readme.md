@@ -1,5 +1,5 @@
 ### Comandos
--npx react-native init tindev - criação
+- react-native init tindev - criação
 
 Emulador Android
 - https://docs.rocketseat.dev
@@ -8,6 +8,6 @@ Emulador Android
     - https://docs.rocketseat.dev/ambiente-react-native/usb/android
         - sudo apt install adb
         - adb devices
-        - npm install -g react-native-cli
-        - react-native run-android
+        - sudo yarn global add react-native-cli
         - react-native start
+        - react-native run-android --deviceId H80xxxxxx 
