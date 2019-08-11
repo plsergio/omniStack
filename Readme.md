@@ -10,3 +10,4 @@ Emulador Android
         - adb devices
         - npm install -g react-native-cli
         - react-native run-android
+        - react-native start
