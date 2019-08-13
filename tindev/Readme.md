@@ -19,6 +19,9 @@
             - pod install
         - yarn react-native run-ios
 
+### API
+- yarn add axios
+
 ### Emulador Android
 - https://docs.rocketseat.dev/ambiente-react-native/android/emulador
 
