@@ -18,6 +18,7 @@
         - na pasta do app: /tindev/ios
             - pod install
         - yarn react-native run-ios
+- yarn add @react-native-community/async-storage
 
 ### API
 - yarn add axios
